@@ -11,7 +11,12 @@ return {
 			size = 16,
 		},
 		cursor = {
-			style = "SteadyBar",
+			style = "BlinkingBar",
+			blink = {
+				rate = 750,
+				easeIn = "Ease",
+				easeOut = "Linear",
+			},
 		},
 	},
 }

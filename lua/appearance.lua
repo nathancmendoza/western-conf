@@ -18,6 +18,9 @@ end
 
 local function configure_cursor(config)
 	config.default_cursor_style = options.appearance.cursor.style
+	config.cursor_blink_rate = options.appearance.cursor.blink.rate
+	config.cursor_blink_ease_in = options.appearance.cursor.blink.easeIn
+	config.cursor_blink_ease_out = options.appearance.cursor.blink.easeOut
 end
 
 local function configure_colors(config)
